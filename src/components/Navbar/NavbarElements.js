@@ -32,6 +32,10 @@ function NavbarElements() {
             <Link to="/gallary">Gallary
             </Link>
           </li>
+          <li>
+            <Link to="/login">Login
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

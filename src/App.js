@@ -10,7 +10,7 @@ import Home from './components/pages/Home';
 import ContactUs from './components/pages/ContactUs';
 import Help from './components/pages/Help';
 import Gallary from './components/pages/Gallary';
- 
+ import Login from './components/Login/Login';
 // import { Route,Routes } from 'react-router-dom';
 
 
@@ -28,6 +28,7 @@ function App() {
               <Route path="/contact" element={<ContactUs />}></Route>
               <Route path="/help" element={<Help />}></Route>
               <Route path="/gallary" element={<Gallary />}></Route>
+              <Route path="/login" element={<Login />}></Route>
           </Routes>
       </div>
    </div>
